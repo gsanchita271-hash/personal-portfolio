@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to right bottom, #00072d,#001c55, #0a2472, #0e6ba8 );
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: poppins;
+    
+    
+}
+.main{
+    position: relative;
+}
+
+
+.navbar{
+    height: 60px;
+    
+    background: linear-gradient(120deg, #00072d,#001c55, #0a2472, #0e6ba8, #a6e1fa );
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 0 5px 10px black;
+    
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color:#fafbfc;
+    font-family: poppins;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.navbar a:visited{
+    color: #00072d;
+}
+
+.navbar a:hover{
+    color: #d6d8db;
+}
+
+.text-contain{
+    
+    position: relative;
+    padding-left: 30px;
+}
+.text-contain button{
+    height: 35px;
+    width: auto;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+
+.text-contain a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.image{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(bhumi.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 900px;
+    border-radius:29% 71% 55% 45% / 30% 30% 70% 70% ;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.text-contain .btn{
+    background: linear-gradient(to right, #6ebfe1, #3fa1e2, #4165d2);
+    border: 1px solid #6ebfe1;
+    font-weight: 700;
+    padding: 5px 5px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+}
+.text-contain .btn-2{
+    background: transparent;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #00c6ff, #8a5cf5 ) 1;
+    font-weight: 700;
+    color: #00c6ff;
+}
+
+.text-contain p{
+    background: linear-gradient(270deg, #36eaed, #b293fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+
+.text-contain .soft{
+    background: linear-gradient(to right, #e0aaff, #90e0ef);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about{
+    padding-left: 30px;
+}
+.about li{
+    list-style-type:square;
+}
+
+.skill{
+    padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+
+}
+.html-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    position: relative;
+    border-radius: 10px;
+     border: 1px solid rgb(246, 168, 112);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.css-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid rgb(100, 192, 253);
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+}
+.js-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    border: 1px solid rgb(234, 232, 83);
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.py-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    border: 1px solid transparent;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #00c6ff, #f5fc65 ) 1;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.react-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    border: 1px solid rgb(234, 232, 83);
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid cyan;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.mongo-card{
+    height: 110px;
+    width: 150px;
+    background: #02154e;
+    border: 1px solid rgb(234, 232, 83);
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid green;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.html img{
+    height: 40px;
+    width: 40px;
+
+}
+.css img{
+    height: 40px;
+    width: 40px;
+
+}
+.js img{
+    height: 40px;
+    width: 40px;
+
+}
+.py img{
+    height: 40px;
+    width: 40px;
+
+}
+.mongo img{
+    height: 40px;
+    width: 40px;
+
+}
+.react img{
+    height: 40px;
+    width: 40px;
+
+}
+
+.html{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.css{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.js{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.py{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.react{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+.mongo{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+
+.projects{
+   padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.projects:hover{
+    
+}
+.project-2{
+   padding-left: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.pro{
+    height: 240px;
+    width: 400px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 30px;
+    border-radius: 20px;
+    background: #02154e;
+    padding: 5px;
+    transition: 0.3s ease;
+    
+    
+}
+.pro:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 198, 255, 0.25);
+}
+
+.pro h4{
+    font-size: 20px;
+    color: #00c6ff;
+}
+
+.pro p{
+    font-size: 15px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: rgb(17, 45, 45);
+}
+/* 📱 Mobile Responsive */
+@media (max-width: 600px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    .main {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+        padding: 12px 5px;
+    }
+
+    .navbar a {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    /* Hero section */
+    .text-contain {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .text-contain h1 {
+        font-size: 35px !important;
+        margin-top: -20px !important;
+    }
+
+    .text-contain h2 {
+        font-size: 18px;
+        margin-top: 0 !important;
+    }
+
+    .text-contain p {
+        font-size: 14px;
+        letter-spacing: 0.5px !important;
+        word-spacing: 1px !important;
+    }
+
+    /* Profile image */
+    .image {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin: 15px auto 25px;
+        width: 180px;
+        height: 180px;
+    }
+
+    /* About */
+    .about {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about h1 {
+        font-size: 30px;
+    }
+
+    .about p {
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 0.5px !important;
+        word-spacing: 1px !important;
+    }
+
+    .about p br {
+        display: none;
+    }
+
+    .about ul {
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+    /* Skills heading */
+    #skills {
+        padding-left: 20px !important;
+        font-size: 30px;
+    }
+
+    /* Skills cards */
+    .skill {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 10px 20px;
+    }
+
+    .html-card,
+    .css-card,
+    .js-card,
+    .py-card,
+    .react-card,
+    .mongo-card {
+        width: 100%;
+        min-width: 0;
+    }
+
+    /* Projects heading */
+    #project {
+        padding-left: 20px !important;
+        font-size: 30px;
+    }
+
+    /* Project cards */
+    .projects,
+    .project-2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .pro {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .text-project-1,
+    .text-project-2,
+    .text-project-3,
+    .text-project-4 {
+        padding: 15px;
+    }
+
+    .pro h4 {
+        font-size: 18px;
+    }
+
+    .pro p {
+        font-size: 13px;
+        line-height: 1.5;
+    }
+
+    /* Contact */
+    #contact {
+        padding-left: 20px !important;
+        font-size: 30px;
+    }
+
+    .contact {
+        padding: 10px 20px !important;
+    }
+
+    .contact h2 {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .contact p {
+        font-size: 13px;
+        word-break: break-word;
+    }
+    .image {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    margin: 15px auto 25px;
+    width: 180px;
+    height: 180px;
+}
+.text-contain h1 {
+    font-size: 32px !important;
+    white-space: normal;
+}
+
+.text-contain h2 {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
+}
